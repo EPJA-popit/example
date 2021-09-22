@@ -71,7 +71,7 @@
     "workbox-webpack-plugin": "5.1.4"
   },
   "scripts": {
-    "start": "popit-cli --server",
+    "start": "BABEL_ENV=development popit-cli --server",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
   },
